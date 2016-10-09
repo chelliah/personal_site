@@ -20,12 +20,10 @@
     outline: none;
     color: $fontColor;
 
-    //bottom: 0px;
     @include transition(color .5s ease 0s);
 
     &:hover{
       color: #d4b2b2;
-      //background: green;
     }
     @for $i from 1 through 4 {
       &.icon-#{$i} {

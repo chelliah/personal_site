@@ -190,7 +190,7 @@
   position: absolute;
   right: 10px;
   margin: 30px auto;
-  z-index: 3;
+  z-index: 30;
   cursor: pointer; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .index-header .main-banner .hamburger-menu {
@@ -326,7 +326,7 @@
   position: absolute;
   right: 10px;
   margin: 30px auto;
-  z-index: 3;
+  z-index: 30;
   cursor: pointer; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .project-header .main-banner .hamburger-menu {
@@ -465,7 +465,7 @@
     position: absolute;
     right: 10px;
     margin: 30px auto;
-    z-index: 3;
+    z-index: 30;
     cursor: pointer; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .fuschia-header .main-banner .hamburger-menu {
@@ -604,7 +604,7 @@
     position: absolute;
     right: 10px;
     margin: 30px auto;
-    z-index: 3;
+    z-index: 30;
     cursor: pointer; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .open-arms-header .main-banner .hamburger-menu {
@@ -745,7 +745,7 @@
   top: 0%;
   background-color: #423434;
   color: #ecf0f1;
-  z-index: 2;
+  z-index: 10;
   position: absolute;
   display: none;
   -webkit-transition: left 0.5s;

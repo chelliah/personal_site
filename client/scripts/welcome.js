@@ -9,7 +9,7 @@ $(document).ready(function(){
     var sphereArray = [];
     var light = new THREE.HemisphereLight( 0xffffff, 0xaaaaaa, 1 );
 
-    var transition = function(){
+    var transition = function(event){
         var clickX =  (event.pageX) + 1750;
         console.log(clickX);
         render = function() {

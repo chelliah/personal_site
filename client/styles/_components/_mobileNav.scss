@@ -11,9 +11,10 @@
   top: 0%;
   background-color: $fontColor;
   color: $primaryColor;
-  z-index: 2;
+  z-index: 10;
   position: absolute;
   display: none;
+  // pointer-events: none;
   @include transition(left .5s);
 
   @include tablet {
@@ -37,5 +38,3 @@
 
   }
 }
-
-

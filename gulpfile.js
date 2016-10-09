@@ -55,6 +55,7 @@ gulp.task('js', function(){
 gulp.task('watch', function(){
     gulp.watch('client/styles/**/*.scss', ['styles']);
     gulp.watch('client/scripts/*.js', ['js'])
+    gulp.watch('client/views/*', ['copy'])
 });
 
 gulp.task('default', ['styles', 'js', 'copy']);
